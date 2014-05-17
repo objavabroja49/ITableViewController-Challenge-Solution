@@ -14,13 +14,13 @@
 		CECADFD91927BFA200C7400C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECADFD81927BFA200C7400C /* main.m */; };
 		CECADFDD1927BFA200C7400C /* MNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECADFDC1927BFA200C7400C /* MNAppDelegate.m */; };
 		CECADFE01927BFA200C7400C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECADFDE1927BFA200C7400C /* Main.storyboard */; };
-		CECADFE31927BFA200C7400C /* MNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECADFE21927BFA200C7400C /* MNViewController.m */; };
 		CECADFE51927BFA200C7400C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECADFE41927BFA200C7400C /* Images.xcassets */; };
 		CECADFEC1927BFA200C7400C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECADFEB1927BFA200C7400C /* XCTest.framework */; };
 		CECADFED1927BFA200C7400C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECADFCC1927BFA200C7400C /* Foundation.framework */; };
 		CECADFEE1927BFA200C7400C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECADFD01927BFA200C7400C /* UIKit.framework */; };
 		CECADFF61927BFA200C7400C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECADFF41927BFA200C7400C /* InfoPlist.strings */; };
 		CECADFF81927BFA200C7400C /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECADFF71927BFA200C7400C /* UITableViewController_Challenge_SolutionTests.m */; };
+		CECAE0031927C15000C7400C /* MNUIViewTableControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECAE0021927C15000C7400C /* MNUIViewTableControllerTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		CECADFDB1927BFA200C7400C /* MNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNAppDelegate.h; sourceTree = "<group>"; };
 		CECADFDC1927BFA200C7400C /* MNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNAppDelegate.m; sourceTree = "<group>"; };
 		CECADFDF1927BFA200C7400C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CECADFE11927BFA200C7400C /* MNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNViewController.h; sourceTree = "<group>"; };
-		CECADFE21927BFA200C7400C /* MNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNViewController.m; sourceTree = "<group>"; };
 		CECADFE41927BFA200C7400C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CECADFEA1927BFA200C7400C /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECADFEB1927BFA200C7400C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CECADFF31927BFA200C7400C /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		CECADFF51927BFA200C7400C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CECADFF71927BFA200C7400C /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		CECAE0011927C15000C7400C /* MNUIViewTableControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNUIViewTableControllerTableViewController.h; path = ../MNUIViewTableControllerTableViewController.h; sourceTree = "<group>"; };
+		CECAE0021927C15000C7400C /* MNUIViewTableControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNUIViewTableControllerTableViewController.m; path = ../MNUIViewTableControllerTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		CECADFD21927BFA200C7400C /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				CECADFDE1927BFA200C7400C /* Main.storyboard */,
+				CECAE0011927C15000C7400C /* MNUIViewTableControllerTableViewController.h */,
+				CECAE0021927C15000C7400C /* MNUIViewTableControllerTableViewController.m */,
 				CECADFDB1927BFA200C7400C /* MNAppDelegate.h */,
 				CECADFDC1927BFA200C7400C /* MNAppDelegate.m */,
-				CECADFDE1927BFA200C7400C /* Main.storyboard */,
-				CECADFE11927BFA200C7400C /* MNViewController.h */,
-				CECADFE21927BFA200C7400C /* MNViewController.m */,
 				CECADFE41927BFA200C7400C /* Images.xcassets */,
 				CECADFD31927BFA200C7400C /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECAE0031927C15000C7400C /* MNUIViewTableControllerTableViewController.m in Sources */,
 				CECADFD91927BFA200C7400C /* main.m in Sources */,
-				CECADFE31927BFA200C7400C /* MNViewController.m in Sources */,
 				CECADFDD1927BFA200C7400C /* MNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
